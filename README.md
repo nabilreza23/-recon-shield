@@ -1,15 +1,15 @@
-# Web Recon & Security Header Scanner
+# Recon Shield - Advanced Web Recon & Hidden Endpoint Finder
 
-A lightweight Python CLI tool for quick web reconnaissance and basic security header checks.
+An advanced Python-based CLI reconnaissance tool for ethical hackers, cybersecurity specialists, and bug bounty hunters.
 
-## Features
-- **Security Headers Analysis:** Checks for `HSTS`, `X-Frame-Options`, `X-Content-Type-Options`, and `CSP`.
-- **Link Extraction:** Scrapes top external links from the targeted domain.
-- **Colorized Terminal Output:** Powered by `colorama`.
+## Advanced Features
+- **Security Header Analysis:** Identifies misconfigurations and missing security headers (`HSTS`, `CSP`, `X-Frame-Options`, etc.).
+- **Passive Hidden Endpoint Mining:** Leverages Wayback Machine APIs to uncover hidden, legacy, or forgotten endpoints (`.json`, `.php`, admin routes).
+- **Multi-threaded Directory Fuzzer:** Fast brute-forcing for high-risk sensitive paths (`.env`, `admin/`, `backup.zip`, `config.php`).
 
-## Installation & Usage
+## Installation
 ```bash
 git clone https://github.com/nabilreza23/-recon-shield.git
-cd ​recon-shield
+cd recon-shield
 pip install -r requirements.txt
 python scanner.py
