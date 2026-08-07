@@ -9,7 +9,7 @@ A lightweight Python CLI tool for quick web reconnaissance and basic security he
 
 ## Installation & Usage
 ```bash
-git clone [https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git)
+git clone https://github.com/nabilreza23/-recon-shield.git
 cd YOUR-REPO-NAME
 pip install -r requirements.txt
 python scanner.py
